@@ -4,11 +4,11 @@
 	<meta charset="UTF-8" />
 	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
 	<meta name="twitter:widgets:theme" content="light">
-	<meta property="og:title" content="Your-Title-Here" />
+	<meta property="og:title" content="EDDA — Video & Motion Design | Gatien Gregori" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="Your-Image-Url" />
-	<meta property="og:description" content="Your-Page-Description" />
-	<title>Gatien GREGORI | Communication</title>
+	<meta property="og:image" content="images/portfolio/projects/edda/edda-hero.jpg" />
+	<meta property="og:description" content="The EDDA YouTube channel: a Low-Code / No-Code video series on the Microsoft Power Platform — filming, motion design, compositing and editing by Gatien Gregori." />
+	<title>Gatien GREGORI | EDDA — Video & Motion Design</title>
 	<link rel="shortcut icon" type="image/x-icon" href="images/GG-favicon_32x32.ico">
 
 	<!-- Font -->
@@ -22,6 +22,30 @@
     	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+
+	<!-- EDDA video gallery styles -->
+	<style>
+		.edda-intro{font-size:1.05em;line-height:1.7;margin-bottom:50px;}
+		.edda-grid{display:grid;gap:26px;margin-bottom:20px;}
+		.edda-grid.cols-1{grid-template-columns:1fr;}
+				.edda-grid.cols-2{grid-template-columns:repeat(2,1fr);}
+		.edda-grid.cols-3{grid-template-columns:repeat(3,1fr);}
+		.edda-item{margin:0;}
+		.edda-video{position:relative;display:block;width:100%;background-size:cover;background-position:center;border-radius:8px;cursor:pointer;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,.13);transition:transform .3s ease,box-shadow .3s ease;}
+		.edda-video::before{content:"";display:block;padding-top:56.25%;}
+		.edda-video.edda-short::before{padding-top:177.78%;}
+		.edda-video:hover{transform:translateY(-4px);box-shadow:0 18px 44px rgba(0,0,0,.22);}
+		.edda-play{position:absolute;top:50%;left:50%;width:76px;height:76px;margin:-38px 0 0 -38px;border-radius:50%;background:rgba(0,0,0,.55);transition:background .3s ease,transform .3s ease;}
+		.edda-play::after{content:"";position:absolute;top:50%;left:55%;transform:translate(-50%,-50%);border-style:solid;border-width:15px 0 15px 25px;border-color:transparent transparent transparent #fff;}
+		.edda-video:hover .edda-play{background:#1ec6b6;transform:scale(1.08);}
+		.edda-video iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;}
+		.edda-linkedin{display:inline-flex;align-items:center;gap:6px;margin-top:8px;font-size:.85em;color:#0a66c2;text-decoration:none;}
+		.edda-linkedin:hover{text-decoration:underline;}
+		.edda-linkedin .icon-linkedin{font-size:1em;}
+		.edda-vtitle{margin:14px 0 0;font-weight:400;font-size:1em;}
+		.edda-vtitle small{display:block;color:#9aa0a6;font-size:.82em;margin-top:3px;}
+		@media (max-width:767px){.edda-grid.cols-2,.edda-grid.cols-3{grid-template-columns:1fr;}}
+	</style>
 </head>
 <body class="shop">
 
@@ -251,24 +275,24 @@
 				<section class="section-block featured-media page-intro tm-slider-parallax-container">
 					<div class="tm-slider-container full-width-slider" data-parallax data-animation="slide" data-scale-under="1140">
 						<ul class="tms-slides">
-							<li class="tms-slide" data-image data-as-bkg-image data-force-fit>
-								<div class="tms-content">
-									<div class="tms-content-inner left">
-										<div class="row">
-											<div class="column width-12">
-												<h1 class="tms-caption color-white inline"
-													data-animate-in="preset:slideInUpShort;duration:1000ms;delay:100ms;"
-													data-no-scale
-												>STAFF<br>
-													Logo/Branding
-												</h1>
+								<li class="tms-slide" data-image data-as-bkg-image data-force-fit>
+									<div class="tms-content">
+										<div class="tms-content-inner left">
+											<div class="row">
+												<div class="column width-12">
+													<h1 class="tms-caption color-white inline"
+														data-animate-in="preset:slideInUpShort;duration:1000ms;delay:100ms;"
+														data-no-scale
+													>EDDA — YouTube<br>
+														Video &amp; Motion Design
+													</h1>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-								<img data-src="images/slider/slide-4-page-intro.jpg" data-retina src="images/blank.png" alt=""/>
-							</li>
-						</ul>
+									<img data-src="images/portfolio/projects/edda/edda-hero.jpg" data-retina src="images/blank.png" alt="EDDA YouTube channel — Low-Code / No-Code video series"/>
+								</li>
+							</ul>
 					</div>
 				</section>
 				<!-- Full Width Slider Section -->
@@ -278,20 +302,42 @@
 
 						<!-- Content Inner -->
 						<div class="column width-8">
-							<div class="thumbnail">
-								<img src="images/portfolio/projects/project-staff-calendar.jpg" alt="Gatien Gregori, Gatien, Design graphique, Agrocheck, Free Lance Designer, Communication, Art director, Art Direction, Graphic Design, Graphic Designer Freelance, Advertising campaign">
+							<p class="edda-intro">As Graphic Designer at <strong>EDDA</strong>, I created and produced the company's YouTube channel end&#8209;to&#8209;end &mdash; a video series demystifying <strong>Low-Code / No-Code</strong> development on the Microsoft Power Platform. From concept and filming to motion design, advanced compositing, thumbnails and final edit.</p>
+
+							<h3 class="mb-30">Featured video</h3>
+							<div class="edda-grid cols-1">
+				<figure class="edda-item">
+									<div class="edda-video" data-yt="L2Fvq4imf-0" role="button" tabindex="0" aria-label="Play: Introduction au Low Code / No Code" style="background-image:url('images/portfolio/projects/edda/edda-lowcode.jpg');">
+										<span class="edda-play" aria-hidden="true"></span>
+									</div>
+									<figcaption class="edda-vtitle">Introduction au Low Code / No Code<small>Série · YouTube</small></figcaption>
+									<a class="edda-linkedin" href="https://fr.linkedin.com/posts/eddalux_edda-series-low-code-no-code-activity-7300824534104879104-G6aS" target="_blank" rel="noopener"><span class="icon-linkedin small"></span>Watch on LinkedIn</a>
+								</figure>
 							</div>
-							<div class="thumbnail">
-								<img src="images/portfolio/projects/project-staff-calendar-2.jpg" alt="Gatien Gregori, Gatien, Design graphique, Agrocheck, Free Lance Designer, Communication, Art director, Art Direction, Graphic Design, Graphic Designer Freelance, Advertising campaign">
-							</div>
-							<div class="thumbnail">
-								<img src="images/portfolio/projects/project-staff-goodies.jpg" alt="Gatien Gregori, Gatien, Design graphique, Agrocheck, Free Lance Designer, Communication, Art director, Art Direction, Graphic Design, Graphic Designer Freelance, Advertising campaign">
-							</div>
-							<div class="thumbnail">
-								<img src="images/portfolio/projects/project-staff-logo.jpg" alt="Gatien Gregori, Gatien, Design graphique, Agrocheck, Free Lance Designer, Communication, Art director, Art Direction, Graphic Design, Graphic Designer Freelance, Advertising campaign">
-							</div>
-							<div class="thumbnail">
-								<img src="images/portfolio/projects/project-staff-paper.jpg" alt="Gatien Gregori, Gatien, Design graphique, Agrocheck, Free Lance Designer, Communication, Art director, Art Direction, Graphic Design, Graphic Designer Freelance, Advertising campaign">
+
+							<h3 class="mt-50 mb-30">Shorts</h3>
+							<div class="edda-grid cols-3">
+				<figure class="edda-item">
+									<div class="edda-video edda-short" data-yt="gBA_HTfCmkA" role="button" tabindex="0" aria-label="Play: Découvrez les Power Apps" style="background-image:url('images/portfolio/projects/edda/edda-powerapps.jpg');">
+										<span class="edda-play" aria-hidden="true"></span>
+									</div>
+									<figcaption class="edda-vtitle">Découvrez les Power Apps<small>Short</small></figcaption>
+									<a class="edda-linkedin" href="https://fr.linkedin.com/posts/eddalux_edda-shorts-power-apps-activity-7302322042979123200-8GwZ" target="_blank" rel="noopener"><span class="icon-linkedin small"></span>Watch on LinkedIn</a>
+								</figure>
+				<figure class="edda-item">
+									<div class="edda-video edda-short" data-yt="OFGkM1E7lBs" role="button" tabindex="0" aria-label="Play: Power Automate en 1mn" style="background-image:url('images/portfolio/projects/edda/edda-powerautomate.jpg');">
+										<span class="edda-play" aria-hidden="true"></span>
+									</div>
+									<figcaption class="edda-vtitle">Power Automate en 1mn<small>Short</small></figcaption>
+									<a class="edda-linkedin" href="https://lnkd.in/fz9a3zc" target="_blank" rel="noopener"><span class="icon-linkedin small"></span>Watch on LinkedIn</a>
+								</figure>
+				<figure class="edda-item">
+									<div class="edda-video edda-short" data-yt="Iu3dMDXH034" role="button" tabindex="0" aria-label="Play: Power BI" style="background-image:url('images/portfolio/projects/edda/edda-powerbi.jpg');">
+										<span class="edda-play" aria-hidden="true"></span>
+									</div>
+									<figcaption class="edda-vtitle">Power BI<small>Short</small></figcaption>
+									<a class="edda-linkedin" href="https://fr.linkedin.com/posts/eddalux_edda-shorts-power-bi-activity-7307347491341959169-bkMG" target="_blank" rel="noopener"><span class="icon-linkedin small"></span>Watch on LinkedIn</a>
+								</figure>
 							</div>
 						</div>
 						<!-- Content Inner End -->
@@ -302,33 +348,37 @@
 								<div class="widget">
 									<h3 class="widget-title">Context</h3>
 									<p class="project-attribute">
-										<span class="project-label">Client:</span><span class="project-value">Staff (temporary job agency)</span>
+										<span class="project-label">Client:</span><span class="project-value">EDDA <span class="agency">(IT company / Communication dept.)</span></span>
 									</p>
 									<p class="project-attribute">
-										<span class="project-label">Date:</span><span class="project-value">2002 <span class="agency">(Everest - Lxbrg)</span></span>
+										<span class="project-label">Role:</span><span class="project-value">Graphic Designer &mdash; Video &amp; Motion Design</span>
 									</p>
 									<p class="project-attribute">
-										<span class="project-label">Brief:</span><span class="project-value">When the company was formed, Staff needed a logo and a total branding for a large amount of documents. </span>
+										<span class="project-label">Date:</span><span class="project-value">Since 2023</span>
 									</p>
-
+									<p class="project-attribute">
+										<span class="project-label">Brief:</span><span class="project-value">Build EDDA's YouTube presence from scratch: a recurring video series that makes Low-Code / No-Code accessible to a business audience.</span>
+									</p>
 								</div>
 								<hr>
 								<div class="widget">
 									<h3 class="widget-title">Personal scope/realisation</h3>
-									<p><strong>I carried out the following tasks:</strong>
-										<ul>
-											<li>Logo design</li>
-											<li>Guideline</li>
-											<li>Adaptation and graphic design for a large amount of paper documents.</li>
-										</ul>
+									<p><strong>End-to-end video creation:</strong></p>
+									<ul>
+										<li>Concept &amp; scripting</li>
+										<li>Corporate filming / shooting</li>
+										<li>Motion design &amp; animation (After Effects)</li>
+										<li>Advanced compositing</li>
+										<li>Thumbnails &amp; channel branding</li>
+										<li>Editing &amp; final delivery</li>
+									</ul>
 								</div>
 								<hr>
 								<div class="widget">
 									<ul class="social-list list-horizontal">
 										<li><a onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + location.href, 'sharer', 'width=626,height=436');" href="javascript: void(0)" title="Share on Facebook"><span class="icon-facebook small"></span></a></li>
-										<li><a onclick="popUp=window.open('https://twitter.com/share?url=Your-Site-Url', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;" href="javascript: void(0)" title="Share on Twitter"><span class="icon-twitter small"></span></a></li>
-										<li><a onclick="popUp=window.open('http://pinterest.com/pin/create/button/?url=Your-Site-Url&amp;media=Your-Image-Url&amp;description=Your-Image-Description', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;" href="javascript: void(0)" title="Pin on Pinterest"><span class="icon-pinterest small"></span></a></li>
-										<li><a onclick="popUp=window.open('https://plus.google.com/share?url=Your-Site-Url', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;" href="javascript: void(0)" title="Share on Google Plus"><span class="icon-google small"></span></a></li>
+										<li><a onclick="popUp=window.open('https://twitter.com/share?url=' + location.href, 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;" href="javascript: void(0)" title="Share on Twitter"><span class="icon-twitter small"></span></a></li>
+										<li><a onclick="popUp=window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + location.href, 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;" href="javascript: void(0)" title="Share on LinkedIn"><span class="icon-linkedin small"></span></a></li>
 									</ul>
 								</div>
 							</div>
@@ -362,5 +412,30 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
 	<script src="js/timber.master.min.js"></script>
+
+	<!-- EDDA video facade: click thumbnail to load the YouTube player -->
+	<script>
+	(function(){
+		// TODO: paste the YouTube video IDs here (the part after watch?v= or youtu.be/)
+		var EDDA_CHANNEL = ""; // optional: full channel URL, used as fallback while IDs are empty
+		function play(el){
+			var id = el.getAttribute('data-yt');
+			if(!id){ if(EDDA_CHANNEL){ window.open(EDDA_CHANNEL,'_blank'); } return; }
+			var ifr = document.createElement('iframe');
+			ifr.setAttribute('src','https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0&playsinline=1&origin='+encodeURIComponent(location.origin));
+			ifr.setAttribute('title','EDDA video');
+			ifr.setAttribute('allow','autoplay; encrypted-media; picture-in-picture; fullscreen');
+			ifr.setAttribute('allowfullscreen','');
+			el.innerHTML=''; el.appendChild(ifr); el.style.cursor='default';
+		}
+		var items = document.querySelectorAll('.edda-video');
+		for(var i=0;i<items.length;i++){
+			(function(el){
+				el.addEventListener('click', function(){ play(el); });
+				el.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); play(el); } });
+			})(items[i]);
+		}
+	})();
+	</script>
 </body>
 </html>
